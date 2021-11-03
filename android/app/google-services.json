@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "49254486804",
+    "project_id": "android-141405",
+    "storage_bucket": "android-141405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49254486804:android:06b6ccd8aa36745b84a801",
+        "android_client_info": {
+          "package_name": "com.example.bazmi_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49254486804-m2keb7027kc6e6vd7rf6gg2aaaferqrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANPYLkhQJXwQyu7qKUfDscqEDYLF-xf2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49254486804-m2keb7027kc6e6vd7rf6gg2aaaferqrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49254486804:android:43eaff504e2ab59984a801",
+        "android_client_info": {
+          "package_name": "com.navin.sample_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49254486804-m2keb7027kc6e6vd7rf6gg2aaaferqrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANPYLkhQJXwQyu7qKUfDscqEDYLF-xf2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49254486804-m2keb7027kc6e6vd7rf6gg2aaaferqrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
