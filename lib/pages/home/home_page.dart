@@ -28,13 +28,13 @@ class _HomePageState extends State<HomePage> {
 
     AdmobService.intestialLoad();
 
-/*
+
 
     client.getHome().then((BaseModel it) => logger.i(it)).catchError((onError){
       print(onError);
 
     });
-*/
+
   }
 
   @override

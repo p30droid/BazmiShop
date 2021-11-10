@@ -2,10 +2,13 @@
 
 import 'package:bazmi_shop/pages/category/category_page.dart';
 import 'package:bazmi_shop/pages/home/home_page.dart';
+import 'package:bazmi_shop/pages/setting/controller/counter_controller.dart';
+import 'package:bazmi_shop/pages/setting/controller/setting_service.dart';
 import 'package:bazmi_shop/pages/setting/setting_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({Key? key}) : super(key: key);
@@ -15,6 +18,8 @@ class DashboardPage extends StatefulWidget {
 }
 
 class _DashboardPageState extends State<DashboardPage> {
+
+
 
 
 
@@ -40,6 +45,11 @@ class _DashboardPageState extends State<DashboardPage> {
 
   @override
   Widget build(BuildContext context) {
+
+    Get.put(SettingService());
+    Get.put(CounterController());
+
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.yellow,
