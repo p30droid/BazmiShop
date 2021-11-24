@@ -1,5 +1,7 @@
 
 
+import 'package:bazmi_shop/customView/custom_text.dart';
+import 'package:bazmi_shop/customView/persian_text.dart';
 import 'package:bazmi_shop/pages/category/category_page.dart';
 import 'package:bazmi_shop/pages/home/home_page.dart';
 import 'package:bazmi_shop/pages/setting/controller/counter_controller.dart';
@@ -9,6 +11,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({Key? key}) : super(key: key);
@@ -52,8 +55,8 @@ class _DashboardPageState extends State<DashboardPage> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.yellow,
-        title: Text('بزمی شاپ'),
+        backgroundColor: Color(0xfff13b50),
+        title: PersianText(AppLocalizations.of(context)!.app_name , 20),
         centerTitle: true,
       ),
 
@@ -65,7 +68,7 @@ class _DashboardPageState extends State<DashboardPage> {
 
       bottomNavigationBar: BottomNavigationBar(
 
-        backgroundColor: Colors.yellow,
+        backgroundColor: Color(0xfff13b50),
         selectedIconTheme: IconThemeData(color: Colors.purple),
         selectedItemColor: Colors.black,
         currentIndex:_currentIndex ,

@@ -115,10 +115,10 @@ class _SettingPageState extends State<SettingPage> {
             value: selectedEducation ,
             onChanged: (value) {
 
-              print('${value!.title} and ${value!.code}');
+              print('${value!.title} and ${value.code}');
 
               setState(() {
-                selectedEducation = value!;
+                selectedEducation = value;
               });
             },
           )
